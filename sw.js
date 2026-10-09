@@ -95,4 +95,4 @@ self.addEventListener('fetch',event=>{
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
 
-// Content revision: d764336c3b3a809e (Camira Vit cream cloth and arc-length wrapped edges)
+// Content revision: 58a2b082d2e9c969 (Fixed cream cover, softer upper-left studio lighting)
