@@ -95,4 +95,4 @@ self.addEventListener('fetch',event=>{
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
 
-// Content revision: 27c156768e31d6b6 (filtered NEXTEL 994W pigment finish)
+// Content revision: 5574ebe5c4289539 (Camira Cara original woven cloth scans)
