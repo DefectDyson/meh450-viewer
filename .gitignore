@@ -1,7 +1,13 @@
 *
 !/.gitignore
 !/README.txt
-!/public/
-!/public/**
-!/.github/
-!/.github/**
+!/.nojekyll
+!/index.html
+!/404.html
+!/gate.js
+!/session.js
+!/sw.js
+!/manifest.json
+!/robots.txt
+!/encrypted/
+!/encrypted/**
