@@ -95,4 +95,4 @@ self.addEventListener('fetch',event=>{
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
 
-// Content revision: 2b6aeb3944a236d3 (cover signet preview)
+// Content revision: b1ccba16295f1a9e (24 mm cover signet)
