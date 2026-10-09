@@ -95,4 +95,4 @@ self.addEventListener('fetch',event=>{
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
 
-// Content revision: b1ccba16295f1a9e (24 mm cover signet)
+// Content revision: 27c156768e31d6b6 (filtered NEXTEL 994W pigment finish)
