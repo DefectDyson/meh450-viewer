@@ -95,4 +95,4 @@ self.addEventListener('fetch',event=>{
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
 
-// Content revision: 63ea86bf828fb046 (Darker grey cloth and stable grazing-angle relief)
+// Content revision: d764336c3b3a809e (Camira Vit cream cloth and arc-length wrapped edges)
