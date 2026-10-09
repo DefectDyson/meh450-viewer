@@ -95,4 +95,4 @@ self.addEventListener('fetch',event=>{
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
 
-// Content revision: 58a2b082d2e9c969 (Fixed cream cover, softer upper-left studio lighting)
+// Content revision: a03050380f983aee (Fixed black cover with original black studio lighting)
