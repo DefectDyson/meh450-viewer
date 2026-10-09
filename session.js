@@ -2,6 +2,9 @@
 'use strict';
 (()=>{
   const VERSION='7d50e5d28cbe77f7',STORAGE='meh450-key:'+VERSION;
+  sessionStorage.removeItem(STORAGE+':opening');
+  const url=new URL(location.href);
+  if(url.searchParams.has('__access')){url.searchParams.delete('__access');history.replaceState(history.state,'',url.href);}
   navigator.serviceWorker.addEventListener('message',event=>{
     if(event.data?.type==='key-request'&&event.data.version===VERSION){
       event.ports[0]?.postMessage({raw:sessionStorage.getItem(STORAGE)});

@@ -1,6 +1,10 @@
 'use strict';
 const VERSION='7d50e5d28cbe77f7',BASE='/meh450-viewer/',CACHE='meh450-encrypted:'+VERSION;
 const keys=new Map();
+// Navigation requests do not consistently expose the previous document's ID
+// (notably in WebKit). A one-use, short-lived ticket transfers only this tab's
+// verified key to the requested document, without putting that key in the URL.
+const navigations=new Map();
 const decode=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
 const configPromise=fetch(BASE+'manifest.json',{cache:'no-store'}).then(r=>r.json()).then(c=>{
   if(c.version!==VERSION)throw Error('Release mismatch');return c;
@@ -19,10 +23,17 @@ async function acceptKey(id,raw){
 }
 self.addEventListener('message',event=>{
   if(event.data?.type==='unlock'&&event.data.version===VERSION&&event.source?.id){
-    event.waitUntil(acceptKey(event.source.id,event.data.raw).then(async()=>{
+    event.waitUntil(acceptKey(event.source.id,event.data.raw).then(async key=>{
+      const nav=event.data.navigation,c=await configPromise;
+      if(!key)throw Error('Missing key');
+      if(nav){
+        if(!/^[a-f0-9]{48}$/.test(nav.token)||!c.files[nav.route]?.type.startsWith('text/html'))throw Error('Invalid navigation');
+        for(const [token,value] of navigations)if(value.expires<Date.now()||value.clientId===event.source.id)navigations.delete(token);
+        navigations.set(nav.token,{key,route:nav.route,clientId:event.source.id,expires:Date.now()+60000});
+      }
       // A hard refresh can intentionally bypass the worker for the login
       // document. Reclaim that document before navigating to protected content.
-      await self.clients.claim();event.ports[0]?.postMessage({ok:true});
+      await self.clients.claim();event.ports[0]?.postMessage({ok:true,navigationReady:Boolean(nav)});
     }).catch(()=>event.ports[0]?.postMessage({ok:false})));
   }
 });
@@ -58,17 +69,27 @@ self.addEventListener('fetch',event=>{
   const url=new URL(event.request.url);
   if(url.origin!==self.location.origin||!url.pathname.startsWith(BASE))return;
   const route=decodeURIComponent(url.pathname.slice(BASE.length));
+  // Do not reuse an older tab bootstrap after updating the access mechanism.
+  if(route==='session.js'){event.respondWith(fetch(event.request,{cache:'no-store'}));return;}
   if(!route.startsWith('site/'))return;
   event.respondWith((async()=>{
     const c=await configPromise,rec=c.files[route];
     if(!rec)return new Response('Nicht gefunden',{status:404});
-    const key=await keyFor(event.clientId);
+    let key;
+    if(event.request.mode==='navigate'){
+      const token=url.searchParams.get('__access'),nav=navigations.get(token);
+      if(nav&&nav.route===route){
+        navigations.delete(token);
+        if(nav.expires>=Date.now())key=nav.key;
+      }
+    }
+    if(!key)key=await keyFor(event.clientId||event.replacesClientId);
     if(!key){
       if(event.request.mode==='navigate')return fetch(BASE+'index.html',{cache:'no-store'});
       return new Response('Zugang gesperrt',{status:401});
     }
     if(event.resultingClientId)keys.set(event.resultingClientId,key);
-    const headers={'Content-Type':rec.type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'};
+    const headers={'Content-Type':rec.type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'};
     if(rec.download)headers['Content-Disposition']='attachment; filename="'+rec.download+'"';
     return new Response(bodyFor(route,rec,key),{headers});
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
