@@ -94,3 +94,5 @@ self.addEventListener('fetch',event=>{
     return new Response(bodyFor(route,rec,key),{headers});
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
+
+// Content revision: 2b6aeb3944a236d3 (cover signet preview)
