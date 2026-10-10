@@ -1,7 +1,7 @@
 // Supply this tab's key after a service-worker restart; never persist plaintext assets.
 'use strict';
 (()=>{
-  const VERSION='8743da13c5e8044e',STORAGE='meh450-key:'+VERSION;
+  const VERSION='22f4789f0cc2efc7',STORAGE='meh450-key:'+VERSION;
   sessionStorage.removeItem(STORAGE+':opening');
   const url=new URL(location.href);
   if(url.searchParams.has('__access')){url.searchParams.delete('__access');history.replaceState(history.state,'',url.href);}
