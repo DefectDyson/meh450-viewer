@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='7d50e5d28cbe77f7',BASE='/meh450-viewer/',CACHE='meh450-encrypted:'+VERSION;
+const VERSION='e51d31b69861920f',BASE='/meh450-viewer/',CACHE='meh450-encrypted:'+VERSION;
 const keys=new Map();
 // Navigation requests do not consistently expose the previous document's ID
 // (notably in WebKit). A one-use, short-lived ticket transfers only this tab's
@@ -94,5 +94,3 @@ self.addEventListener('fetch',event=>{
     return new Response(bodyFor(route,rec,key),{headers});
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
 });
-
-// Content revision: a03050380f983aee (Fixed black cover with original black studio lighting)
