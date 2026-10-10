@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='22f4789f0cc2efc7',BASE='/meh450-viewer/',CACHE='meh450-encrypted:'+VERSION;
+const VERSION='5054c1f11d264eea',BASE='/meh450-viewer/',CACHE='meh450-encrypted:'+VERSION;
 const keys=new Map();
 // Navigation requests do not consistently expose the previous document's ID
 // (notably in WebKit). A one-use, short-lived ticket transfers only this tab's
