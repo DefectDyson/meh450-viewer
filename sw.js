@@ -1,5 +1,5 @@
 'use strict';
-const VERSION='92b8bc3be759eec1',BASE='/meh450-viewer/',CACHE='meh450-encrypted:'+VERSION;
+const VERSION='46db1e0657a46f27',BASE='/meh450-viewer/',CACHE='meh450-encrypted:'+VERSION;
 const keys=new Map();
 // Navigation requests do not consistently expose the previous document's ID
 // (notably in WebKit). A one-use, short-lived ticket transfers only this tab's
@@ -89,7 +89,7 @@ self.addEventListener('fetch',event=>{
       return new Response('Zugang gesperrt',{status:401});
     }
     if(event.resultingClientId)keys.set(event.resultingClientId,key);
-    const headers={'Content-Type':rec.type,'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'};
+    const headers={'Content-Type':rec.type,'Content-Length':String(rec.bytes),'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'};
     if(rec.download)headers['Content-Disposition']='attachment; filename="'+rec.download+'"';
     return new Response(bodyFor(route,rec,key),{headers});
   })().catch(()=>new Response('Die Datei konnte nicht geöffnet werden. Bitte die Seite neu laden.',{status:503})));
