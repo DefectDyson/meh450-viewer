@@ -3,8 +3,8 @@
   "branch": "main",
   "commit": "8090401",
   "url": "https://defectdyson.github.io/meh450-viewer/",
-  "status": "live_8ohm_simulation_20261013",
-  "browser_checks": "Live manifest version b7640313003a0192 verified via HTTPS; decryption of simulation.html (8 ohm), simulation-4ohm.html and index.html checked locally before publish.",
+  "status": "live_8ohm_simulation_distortion_20261013",
+  "browser_checks": "Decryption of simulation.html and simulation-4ohm.html (incl. new distortion section) checked locally before publish; live version check after push.",
   "settings_url": "https://github.com/DefectDyson/meh450-viewer/settings/pages",
   "required_source": "Deploy from a branch",
   "published_files_verified": 5,
@@ -12,5 +12,5 @@
   "source_folder": "/",
   "workflow_run": 37911655181,
   "mobile_checks": "This UI/default revision not separately retested on mobile",
-  "content_revision": "b7640313003a0192"
+  "content_revision": "a9c896b4571017af"
 }

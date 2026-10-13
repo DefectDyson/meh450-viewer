@@ -1,5 +1,5 @@
 {
-  "version": "b7640313003a0192",
+  "version": "a9c896b4571017af",
   "base": "/meh450-viewer/",
   "files": {
     "Frequenzweiche/MEH450_Einbau_P2.zip": {
@@ -435,16 +435,16 @@
       "gzip_bytes": 718
     },
     "Lautsprecher_3D/simulation-4ohm.html": {
-      "source_sha256": "e66843907b43552bf6cf46ee3eda39c87c3b4a22b27b108325e585d4c663f134",
-      "served_sha256": "00a3460dbb21c5f65cdd2ec119cb479aed634bd8037359c592a9991c9c1240a6",
-      "bytes": 929479,
-      "gzip_bytes": 371891
+      "source_sha256": "0c69e176c93926f7c28882b3c35b26f071ea1cf88935d253aa1be48098378c94",
+      "served_sha256": "a9ed10bcfce1b2afc7231a1c2cad1579a37322fefb63c27351df15331ddfaa25",
+      "bytes": 938790,
+      "gzip_bytes": 375025
     },
     "Lautsprecher_3D/simulation.html": {
-      "source_sha256": "2cc0392595d86fad3040835bebe6e3ce7ff8793a89608d7b5a5e1d01a2f46d64",
-      "served_sha256": "b86c612e3cc13f110e5de4000d420eaa7d87f0cf577fc08aa0b1e792c10a86fd",
-      "bytes": 929322,
-      "gzip_bytes": 371712
+      "source_sha256": "ae1aec5a22e5f848e84d746b4d6196ff3fac1b1bf749cb7259747c216b2e3a98",
+      "served_sha256": "289948e5383868c79ac8000351ec5d751d9b05cd2e3c21e336094532d8f4c43b",
+      "bytes": 938635,
+      "gzip_bytes": 374865
     },
     "Lautsprecher_3D/sockel.js": {
       "source_sha256": "2deb59e7af078c155c17c274878fe92ce55905ddc7ae20bd1e15e33e2841695e",
@@ -567,5 +567,5 @@
       "gzip_bytes": 3218
     }
   },
-  "encrypted_bytes": 326034985
+  "encrypted_bytes": 326041272
 }
