@@ -1,0 +1,12 @@
+{
+  "url": "https://defectdyson.github.io/meh450-viewer/site/Lautsprecher_3D/index.html",
+  "badge": {
+    "heightMm": 20,
+    "bottomClearanceMm": 27,
+    "thicknessMm": 0.44,
+    "source": "logo-p.png",
+    "prototype": true
+  },
+  "calls": 125,
+  "errors": []
+}

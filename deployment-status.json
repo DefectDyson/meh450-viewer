@@ -1,0 +1,16 @@
+{
+  "repository": "DefectDyson/meh450-viewer",
+  "branch": "main",
+  "commit": "b2b878834615daea0902ed8fc28b7e17c720c101",
+  "url": "https://defectdyson.github.io/meh450-viewer/",
+  "status": "live_fixed_black_cover",
+  "browser_checks": "Passed: black startup, original lighting, hidden cover colour controls, remaining controls intact, no runtime errors. Prior lighting toggle check restored black pixels identically.",
+  "settings_url": "https://github.com/DefectDyson/meh450-viewer/settings/pages",
+  "required_source": "Deploy from a branch",
+  "published_files_verified": 5,
+  "source_branch": "main",
+  "source_folder": "/",
+  "workflow_run": 37911655181,
+  "mobile_checks": "This UI/default revision not separately retested on mobile",
+  "content_revision": "a03050380f983aee"
+}
