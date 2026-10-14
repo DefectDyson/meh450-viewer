@@ -1,6 +1,6 @@
 'use strict';
 (async()=>{
-  const BASE='/meh450-viewer/', VERSION='a05285ac66940c8f', STORAGE='meh450-key:'+VERSION, ATTEMPTS=STORAGE+':opening';
+  const BASE='/meh450-viewer/', VERSION='e18dd671f0d69d33', STORAGE='meh450-key:'+VERSION, ATTEMPTS=STORAGE+':opening';
   const form=document.querySelector('#gate'),status=document.querySelector('#status'),button=form.querySelector('button');
   const decode=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
   const encode=a=>btoa(String.fromCharCode(...new Uint8Array(a)));
@@ -40,7 +40,11 @@
   try{
     if(!crypto.subtle||!navigator.serviceWorker||!window.DecompressionStream)throw Error('Bitte einen aktuellen Browser mit HTTPS verwenden.');
     config=await(await fetch(BASE+'manifest.json',{cache:'no-store'})).json();
-    if(config.version!==VERSION)throw Error('Die Seite wurde aktualisiert. Bitte neu laden.');
+    if(config.version!==VERSION){   // 14.10.2026: veraltete Zwischenspeicher-Kopie -> einmal selbst mit neuer Version neu laden
+      const marke='meh450-reload:'+config.version;
+      if(!sessionStorage.getItem(marke)){sessionStorage.setItem(marke,'1');const u=new URL(location.href);u.searchParams.set('v',config.version);location.replace(u.href);return;}
+      throw Error('Die Seite wurde aktualisiert. Bitte mit Strg+Umschalt+R neu laden.');
+    }
     registration=await navigator.serviceWorker.register(BASE+'sw.js?access=2',{scope:BASE,updateViaCache:'none'});
     await navigator.serviceWorker.ready;
     await waitFor(()=>registration.active&&!registration.installing&&!registration.waiting);
