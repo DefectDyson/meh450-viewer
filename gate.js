@@ -1,6 +1,6 @@
 'use strict';
 (async()=>{
-  const BASE='/meh450-viewer/', VERSION='f32903edc2a19995', STORAGE='meh450-key:'+VERSION, ATTEMPTS=STORAGE+':opening';
+  const BASE='/meh450-viewer/', VERSION='561c762f94b5da7f', STORAGE='meh450-key:'+VERSION, ATTEMPTS=STORAGE+':opening';
   const form=document.querySelector('#gate'),status=document.querySelector('#status'),button=form.querySelector('button');
   const decode=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
   const encode=a=>btoa(String.fromCharCode(...new Uint8Array(a)));
