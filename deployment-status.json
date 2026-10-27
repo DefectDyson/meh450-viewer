@@ -1,16 +1,16 @@
 {
   "repository": "DefectDyson/meh450-viewer",
   "branch": "main",
-  "commit": "8090401",
+  "commit": "",
   "url": "https://defectdyson.github.io/meh450-viewer/",
-  "status": "live_8ohm_simulation_distortion_20261013",
-  "browser_checks": "Decryption of simulation.html and simulation-4ohm.html (incl. new distortion section) checked locally before publish; live version check after push.",
+  "status": "live_plate_amp_fix_20261027",
+  "browser_checks": "Viewer source checked locally (headless Firefox) before encryption: active variant without terminal, plate amp materials and adapter cover cut-out; live version check after push.",
   "settings_url": "https://github.com/DefectDyson/meh450-viewer/settings/pages",
   "required_source": "Deploy from a branch",
   "published_files_verified": 5,
   "source_branch": "main",
   "source_folder": "/",
-  "workflow_run": 37911655181,
+  "workflow_run": null,
   "mobile_checks": "This UI/default revision not separately retested on mobile",
-  "content_revision": "a9c896b4571017af"
+  "content_revision": "1ffc569ac6d722e6"
 }

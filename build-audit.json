@@ -1,78 +1,78 @@
 {
-  "version": "a9c896b4571017af",
+  "version": "1ffc569ac6d722e6",
   "base": "/meh450-viewer/",
   "files": {
     "Frequenzweiche/MEH450_Einbau_P2.zip": {
       "source_sha256": "611be2e4401dbc12f65dcfc0ecd22b531077b2eb60c0b721008605fc524d5970",
       "served_sha256": "611be2e4401dbc12f65dcfc0ecd22b531077b2eb60c0b721008605fc524d5970",
       "bytes": 115663184,
-      "gzip_bytes": 112741453
+      "gzip_bytes": 112625886
     },
     "Frequenzweiche/MEH450_Weiche_P1.zip": {
       "source_sha256": "7673210719f9a349d4084aeb489c9b30f8f8f14f2f335bec26d5f107b0029841",
       "served_sha256": "7673210719f9a349d4084aeb489c9b30f8f8f14f2f335bec26d5f107b0029841",
       "bytes": 31778032,
-      "gzip_bytes": 31439378
+      "gzip_bytes": 31432249
     },
     "Frequenzweiche/daten/3d/MEH450_Weiche_P1.glb": {
       "source_sha256": "60618be8e2d912289b9cca70e1e29e880ecbe4cdcdef1c3feedc86c5835d378c",
       "served_sha256": "60618be8e2d912289b9cca70e1e29e880ecbe4cdcdef1c3feedc86c5835d378c",
       "bytes": 23070588,
-      "gzip_bytes": 9620035
+      "gzip_bytes": 9599545
     },
     "Frequenzweiche/daten/3d/MEH450_Weiche_P1.step": {
       "source_sha256": "7e8c12089ecdcbe8178ed9a7d387a9d5ae5c380d39bad0554352b26d3b25dcdb",
       "served_sha256": "7e8c12089ecdcbe8178ed9a7d387a9d5ae5c380d39bad0554352b26d3b25dcdb",
       "bytes": 3140626,
-      "gzip_bytes": 522516
+      "gzip_bytes": 524886
     },
     "Frequenzweiche/daten/3d/Weiche_Gesamt.png": {
       "source_sha256": "3a047629477700c157f0181919dac67876aab8ef4bcbba8eda8f9d2bb8c6b9e3",
       "served_sha256": "3a047629477700c157f0181919dac67876aab8ef4bcbba8eda8f9d2bb8c6b9e3",
       "bytes": 1741751,
-      "gzip_bytes": 1742197
+      "gzip_bytes": 1742194
     },
     "Frequenzweiche/daten/Aufbauanleitung.pdf": {
       "source_sha256": "536d9d3d6ac5a8daec9c0b4acd993105d53ee600a9b0f427843cb1090e098e79",
       "served_sha256": "536d9d3d6ac5a8daec9c0b4acd993105d53ee600a9b0f427843cb1090e098e79",
       "bytes": 1727006,
-      "gzip_bytes": 1408306
+      "gzip_bytes": 1419239
     },
     "Frequenzweiche/daten/Schaltplaene.pdf": {
       "source_sha256": "c60c14cb9a6234bd6adf0ee8b658aed4a16b08a7d2a5653b390e340be59136bf",
       "served_sha256": "c60c14cb9a6234bd6adf0ee8b658aed4a16b08a7d2a5653b390e340be59136bf",
       "bytes": 218869,
-      "gzip_bytes": 161323
+      "gzip_bytes": 160991
     },
     "Frequenzweiche/daten/Stueckliste.csv": {
       "source_sha256": "2d6992a816254ed61011062dbd45cb5459985eb313d35e525f13cb44d052b6ac",
       "served_sha256": "2d6992a816254ed61011062dbd45cb5459985eb313d35e525f13cb44d052b6ac",
       "bytes": 4913,
-      "gzip_bytes": 809
+      "gzip_bytes": 810
     },
     "Frequenzweiche/daten/print/HF_Bestueckung_Bohrplan_1zu1.pdf": {
       "source_sha256": "72f4432e459cda9903f92d2065d4557c322b129f579f3283874e7f38312fd763",
       "served_sha256": "72f4432e459cda9903f92d2065d4557c322b129f579f3283874e7f38312fd763",
       "bytes": 4787,
-      "gzip_bytes": 3606
+      "gzip_bytes": 3607
     },
     "Frequenzweiche/daten/print/HF_Kupfer_unten_1zu1.pdf": {
       "source_sha256": "73a812ec99fb988aa8525452bb0ae7337c3680600464c7f24fdac48f8fafc360",
       "served_sha256": "73a812ec99fb988aa8525452bb0ae7337c3680600464c7f24fdac48f8fafc360",
       "bytes": 5865,
-      "gzip_bytes": 4492
+      "gzip_bytes": 4494
     },
     "Frequenzweiche/daten/print/HF_Transfer_Durchsicht_oben_1zu1.pdf": {
       "source_sha256": "82b9332e68d2a2c5605fcc822201a4f0cf1b22f7b5a42a09967affde8ec5d973",
       "served_sha256": "82b9332e68d2a2c5605fcc822201a4f0cf1b22f7b5a42a09967affde8ec5d973",
       "bytes": 5943,
-      "gzip_bytes": 4550
+      "gzip_bytes": 4552
     },
     "Frequenzweiche/daten/print/LF_Bestueckung_Bohrplan_1zu1.pdf": {
       "source_sha256": "ffc9c297eeeb10cbaaf9807b4ac114e64e3464613fcfcf2eba68a5e8658906cb",
       "served_sha256": "ffc9c297eeeb10cbaaf9807b4ac114e64e3464613fcfcf2eba68a5e8658906cb",
       "bytes": 4577,
-      "gzip_bytes": 3417
+      "gzip_bytes": 3418
     },
     "Frequenzweiche/daten/print/LF_Kupfer_unten_1zu1.pdf": {
       "source_sha256": "3a2f236dbcbaeeda316d42d8790fe335dcbf758e8a1805d4153cb0c4a46517c3",
@@ -84,61 +84,61 @@
       "source_sha256": "c90d6f332286301a73a1cdbff8056bf69e92853bbeb95293457746c68d7f3a04",
       "served_sha256": "c90d6f332286301a73a1cdbff8056bf69e92853bbeb95293457746c68d7f3a04",
       "bytes": 5257,
-      "gzip_bytes": 3984
+      "gzip_bytes": 3986
     },
     "Frequenzweiche/daten/print/MF_Bestueckung_Bohrplan_1zu1.pdf": {
       "source_sha256": "c0fd6b8b5a832e1ebf9873396f7a6a8bef5ab78e8d90733299e5f85279e82126",
       "served_sha256": "c0fd6b8b5a832e1ebf9873396f7a6a8bef5ab78e8d90733299e5f85279e82126",
       "bytes": 5531,
-      "gzip_bytes": 4206
+      "gzip_bytes": 4208
     },
     "Frequenzweiche/daten/print/MF_Kupfer_unten_1zu1.pdf": {
       "source_sha256": "bb079b048f69eafa07f4300a52424e13251d92bdadaa8cd016a6556fc60421fe",
       "served_sha256": "bb079b048f69eafa07f4300a52424e13251d92bdadaa8cd016a6556fc60421fe",
       "bytes": 6519,
-      "gzip_bytes": 5020
+      "gzip_bytes": 5023
     },
     "Frequenzweiche/daten/print/MF_Transfer_Durchsicht_oben_1zu1.pdf": {
       "source_sha256": "b6c4c72b0bc505321269339fa0e19649013aea12843f7dc4a4dfe6d81c50782c",
       "served_sha256": "b6c4c72b0bc505321269339fa0e19649013aea12843f7dc4a4dfe6d81c50782c",
       "bytes": 6598,
-      "gzip_bytes": 5076
+      "gzip_bytes": 5078
     },
     "Frequenzweiche/einbau/3d/Einbau.png": {
       "source_sha256": "92ea9eb68e4e40fa0b88603a26bfa043bac4670237da845a1ba6e7c5422745e4",
       "served_sha256": "92ea9eb68e4e40fa0b88603a26bfa043bac4670237da845a1ba6e7c5422745e4",
       "bytes": 1597042,
-      "gzip_bytes": 1597434
+      "gzip_bytes": 1597432
     },
     "Frequenzweiche/einbau/3d/MEH450_Einbau_P2.FCStd": {
       "source_sha256": "470fce4a3fb3be42e268c9428e31ca702a526143a875ae350b73caafc0c34914",
       "served_sha256": "470fce4a3fb3be42e268c9428e31ca702a526143a875ae350b73caafc0c34914",
       "bytes": 8613110,
-      "gzip_bytes": 8500497
+      "gzip_bytes": 8500619
     },
     "Frequenzweiche/einbau/3d/MEH450_Einbau_P2.glb": {
       "source_sha256": "f3987e2b41fdce6ba5f0300faa411cc5580f4708911ba6237395e684875adcc8",
       "served_sha256": "f3987e2b41fdce6ba5f0300faa411cc5580f4708911ba6237395e684875adcc8",
       "bytes": 35392304,
-      "gzip_bytes": 15975966
+      "gzip_bytes": 15961860
     },
     "Frequenzweiche/einbau/3d/MEH450_Einbau_P2.step": {
       "source_sha256": "4d6c0dc9326910239596797d76317fbf639b712e3bb47e075df294324a522f88",
       "served_sha256": "4d6c0dc9326910239596797d76317fbf639b712e3bb47e075df294324a522f88",
       "bytes": 23413052,
-      "gzip_bytes": 4938774
+      "gzip_bytes": 5002544
     },
     "Frequenzweiche/einbau/Einbauanleitung.pdf": {
       "source_sha256": "815d48c02096817e9e394bffa0b472167f0bc3dabcbf6c2921db95ac689209bf",
       "served_sha256": "815d48c02096817e9e394bffa0b472167f0bc3dabcbf6c2921db95ac689209bf",
       "bytes": 1922408,
-      "gzip_bytes": 1564785
+      "gzip_bytes": 1576796
     },
     "Frequenzweiche/einbau/Stueckliste_Einbau.csv": {
       "source_sha256": "102f9b9ed659bfbb9de4682b726374bf236e8e8fde732d70d32705baf8658d9a",
       "served_sha256": "102f9b9ed659bfbb9de4682b726374bf236e8e8fde732d70d32705baf8658d9a",
       "bytes": 2437,
-      "gzip_bytes": 1272
+      "gzip_bytes": 1274
     },
     "Frequenzweiche/einbau/Verdrahtung.csv": {
       "source_sha256": "6ebc1e1acc2f70c9a26a1c202bf6f018c836e219eb9207e2f99e90944508d983",
@@ -150,7 +150,7 @@
       "source_sha256": "585be192db0b54aaa297cad37fb49b69d1786b3ca52b05194a918fd6b24fc143",
       "served_sha256": "585be192db0b54aaa297cad37fb49b69d1786b3ca52b05194a918fd6b24fc143",
       "bytes": 25909,
-      "gzip_bytes": 24051
+      "gzip_bytes": 24054
     },
     "Frequenzweiche/einbau/checks/installation.json": {
       "source_sha256": "d9dec152fc65854d5378c6df401fa06310f5f250311f488107af45313e0ce4af",
@@ -162,13 +162,13 @@
       "source_sha256": "1d98d78fdb081761b2c7cf2b9a24f3ae535f2e373ae3a665e27649291c66fe50",
       "served_sha256": "1d98d78fdb081761b2c7cf2b9a24f3ae535f2e373ae3a665e27649291c66fe50",
       "bytes": 207155,
-      "gzip_bytes": 159893
+      "gzip_bytes": 160723
     },
     "Frequenzweiche/einbau/manufacturing/HF_Carrier_1zu1.pdf": {
       "source_sha256": "2cd4bd98a5b49283683f6aeae47bbb38e84dd199cd10d413c6abe3589dbb8e79",
       "served_sha256": "2cd4bd98a5b49283683f6aeae47bbb38e84dd199cd10d413c6abe3589dbb8e79",
       "bytes": 46865,
-      "gzip_bytes": 43533
+      "gzip_bytes": 43536
     },
     "Frequenzweiche/einbau/manufacturing/LF_Carrier_1zu1.pdf": {
       "source_sha256": "135ca6f638c855bc0222e6258703ac84f1ea0d468db62dd6dfc3d19f43f3a7a0",
@@ -180,55 +180,55 @@
       "source_sha256": "364a308a11d76a3ac0e956dd3dd4bc0bb52334cfd9a93198ae1a160bcdbd9849",
       "served_sha256": "364a308a11d76a3ac0e956dd3dd4bc0bb52334cfd9a93198ae1a160bcdbd9849",
       "bytes": 48288,
-      "gzip_bytes": 44772
+      "gzip_bytes": 44780
     },
     "Frequenzweiche/einbau/manufacturing/Socket_Rack_1zu1.pdf": {
       "source_sha256": "e85985871511cb1820a6c129482a319607de2815eb56e97da8b4e44b08105b75",
       "served_sha256": "e85985871511cb1820a6c129482a319607de2815eb56e97da8b4e44b08105b75",
       "bytes": 47597,
-      "gzip_bytes": 44182
+      "gzip_bytes": 44186
     },
     "Frequenzweiche/einbau.html": {
       "source_sha256": "81e1ac5d6c258b770f48d582e412c82d3117fac84085725a50b3baeaf8cc900d",
       "served_sha256": "6fcc6f7b75307b6f28c18bbd62e2006256eec6ba88a1af25cc147fdb685ddefb",
       "bytes": 6997,
-      "gzip_bytes": 3036
+      "gzip_bytes": 3040
     },
     "Frequenzweiche/index.html": {
       "source_sha256": "3b6179591085466bf185c7aa36a6c0a87dd011100aa608c6540be7f99c769316",
       "served_sha256": "dffaed9e64a96d2680f39e60651fb8723daa617f1dfc6d14feb5e21c2a82570b",
       "bytes": 8266,
-      "gzip_bytes": 2679
+      "gzip_bytes": 2681
     },
     "Frequenzweiche/installation-factory.js": {
       "source_sha256": "61cb2781691dc40475b601f30cbf190357ea8772d1911a85300103208308a557",
       "served_sha256": "61cb2781691dc40475b601f30cbf190357ea8772d1911a85300103208308a557",
       "bytes": 3394,
-      "gzip_bytes": 1634
+      "gzip_bytes": 1633
     },
     "Frequenzweiche/installation-model.js": {
       "source_sha256": "9ae06e1812c53984cf1a2011733c65eb14ffaf80b76dcaf1c1dfeba441354196",
       "served_sha256": "9ae06e1812c53984cf1a2011733c65eb14ffaf80b76dcaf1c1dfeba441354196",
       "bytes": 21301322,
-      "gzip_bytes": 15844184
+      "gzip_bytes": 16158454
     },
     "Frequenzweiche/installation-viewer.js": {
       "source_sha256": "80c2bc5beb0b69377ee0ccb65344dfe661db092db2a3599eba892000df5ea787",
       "served_sha256": "80c2bc5beb0b69377ee0ccb65344dfe661db092db2a3599eba892000df5ea787",
       "bytes": 6760,
-      "gzip_bytes": 2829
+      "gzip_bytes": 2832
     },
     "Frequenzweiche/model.js": {
       "source_sha256": "750f7a31c46a6a5d5eae26474307fa8d3f62e275420f58e9b161947401bdb1b1",
       "served_sha256": "750f7a31c46a6a5d5eae26474307fa8d3f62e275420f58e9b161947401bdb1b1",
       "bytes": 30760809,
-      "gzip_bytes": 11340942
+      "gzip_bytes": 11496773
     },
     "Frequenzweiche/vendor/three-r160.min.js": {
       "source_sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
       "served_sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
       "bytes": 669884,
-      "gzip_bytes": 166574
+      "gzip_bytes": 167081
     },
     "Frequenzweiche/viewer.css": {
       "source_sha256": "95009b0f91b7ba5afdcb309bd1e6995ee87ab6a20d457921532711e8f3a906b9",
@@ -240,37 +240,43 @@
       "source_sha256": "d072da0e7e0551abeeee630e69d0a1d04189cf94f655646399cd2abd452e65ce",
       "served_sha256": "d072da0e7e0551abeeee630e69d0a1d04189cf94f655646399cd2abd452e65ce",
       "bytes": 8194,
-      "gzip_bytes": 3523
+      "gzip_bytes": 3526
     },
     "Front/4176/beauty.png": {
       "source_sha256": "6fab2d032026aa74df5ae7542831b48274bfcb244e37cd9242fa671311666c66",
       "served_sha256": "6fab2d032026aa74df5ae7542831b48274bfcb244e37cd9242fa671311666c66",
       "bytes": 16620221,
-      "gzip_bytes": 16150421
+      "gzip_bytes": 16152294
+    },
+    "Lautsprecher_3D/aktiv.js": {
+      "source_sha256": "dce92ac3e868e987b610024b172253cddcfaf230837df17d70b89861a77f8613",
+      "served_sha256": "dce92ac3e868e987b610024b172253cddcfaf230837df17d70b89861a77f8613",
+      "bytes": 7603,
+      "gzip_bytes": 3177
     },
     "Lautsprecher_3D/bass-driver.js": {
       "source_sha256": "347bcb5bbfbca394483289a41f8825790dca26f3e3f6470253f66dc47b0df7f3",
       "served_sha256": "347bcb5bbfbca394483289a41f8825790dca26f3e3f6470253f66dc47b0df7f3",
       "bytes": 2748132,
-      "gzip_bytes": 2070819
+      "gzip_bytes": 2112484
     },
     "Lautsprecher_3D/bass-module.js": {
       "source_sha256": "909c080b9140e8b73293ad236a056476df1219dbda793c611c95ccd64be17cdd",
       "served_sha256": "909c080b9140e8b73293ad236a056476df1219dbda793c611c95ccd64be17cdd",
       "bytes": 10030,
-      "gzip_bytes": 3992
+      "gzip_bytes": 4008
     },
     "Lautsprecher_3D/cabinet-edges.js": {
       "source_sha256": "998f74b36acfbce8268258bc7a52b4c2707f42007316dfc1d67cf933381ee601",
       "served_sha256": "998f74b36acfbce8268258bc7a52b4c2707f42007316dfc1d67cf933381ee601",
       "bytes": 3011,
-      "gzip_bytes": 1029
+      "gzip_bytes": 1030
     },
     "Lautsprecher_3D/concealed-feet-model.js": {
       "source_sha256": "896b2e14ddf20a38f2c1a06c82d162a5cd1e6cee3337772686c7afd6cea1ee83",
       "served_sha256": "896b2e14ddf20a38f2c1a06c82d162a5cd1e6cee3337772686c7afd6cea1ee83",
       "bytes": 6841426,
-      "gzip_bytes": 2587363
+      "gzip_bytes": 2620517
     },
     "Lautsprecher_3D/configurator.js": {
       "source_sha256": "5ef662c1c61e82ac2eff86db9288e5fc20d207da8f07e4ec2ac4de29227ce6e3",
@@ -282,25 +288,25 @@
       "source_sha256": "9ae06e1812c53984cf1a2011733c65eb14ffaf80b76dcaf1c1dfeba441354196",
       "served_sha256": "9ae06e1812c53984cf1a2011733c65eb14ffaf80b76dcaf1c1dfeba441354196",
       "bytes": 21301322,
-      "gzip_bytes": 15844184
+      "gzip_bytes": 16158454
     },
     "Lautsprecher_3D/crossover-module.js": {
       "source_sha256": "61cb2781691dc40475b601f30cbf190357ea8772d1911a85300103208308a557",
       "served_sha256": "61cb2781691dc40475b601f30cbf190357ea8772d1911a85300103208308a557",
       "bytes": 3394,
-      "gzip_bytes": 1634
+      "gzip_bytes": 1633
     },
     "Lautsprecher_3D/driver-module.js": {
       "source_sha256": "fc66ebc3981ab50ddf9e674e9bd25b168510cde64b7652a5fa9376c6d2c91232",
       "served_sha256": "fc66ebc3981ab50ddf9e674e9bd25b168510cde64b7652a5fa9376c6d2c91232",
       "bytes": 4686967,
-      "gzip_bytes": 3531076
+      "gzip_bytes": 3600529
     },
     "Lautsprecher_3D/floor-rear-arms-model.js": {
       "source_sha256": "e440080b5a8315699a86a8a356d295e082f3f1eb8054b190a8b4bc1268a56f9f",
       "served_sha256": "e440080b5a8315699a86a8a356d295e082f3f1eb8054b190a8b4bc1268a56f9f",
       "bytes": 3070531,
-      "gzip_bytes": 819789
+      "gzip_bytes": 826827
     },
     "Lautsprecher_3D/floor-rear-arms.js": {
       "source_sha256": "7f093eb70c09511f4130a7086058939c03323617ef13a4817cdb738cd3bfe4fe",
@@ -312,49 +318,55 @@
       "source_sha256": "c1f5ee4c10242bf3005be358a1930d192060c9fcbb634ab43a7997304f80d000",
       "served_sha256": "931fa79bb1c8fa5bd1f6bd60ec3998530d9fec51a0ce72a7eff040fff6561e9e",
       "bytes": 7537700,
-      "gzip_bytes": 2764197
+      "gzip_bytes": 2798254
     },
     "Lautsprecher_3D/glas.js": {
-      "source_sha256": "8a50414ce41ab59bdf993e8e0879725e7f5d9731139ecc80f864d35ab51d677e",
-      "served_sha256": "8a50414ce41ab59bdf993e8e0879725e7f5d9731139ecc80f864d35ab51d677e",
-      "bytes": 7883,
-      "gzip_bytes": 3366
+      "source_sha256": "aec2870f024e7c1a32ab6d54845de466d3688153dab2c3b04484aefb12e66dd5",
+      "served_sha256": "aec2870f024e7c1a32ab6d54845de466d3688153dab2c3b04484aefb12e66dd5",
+      "bytes": 8980,
+      "gzip_bytes": 3805
     },
     "Lautsprecher_3D/index.html": {
-      "source_sha256": "b81e8bf3543ba3064dc866180785f5204daf09ead308ff663894fa88bca14d9b",
-      "served_sha256": "ea994ab3f583c84fe38c8338fc03f056beebb2644f2e59bf0034b495a066ecf2",
-      "bytes": 33486,
-      "gzip_bytes": 15126
+      "source_sha256": "c8dc21607fc87677949b7d8da93da1d92d0c66daf04fca7209ab95fb0540f4ea",
+      "served_sha256": "fea1fa4222d7df4d5a3fa2a7d7a96a5fd815bd144c86c3705202ca20177849e9",
+      "bytes": 34963,
+      "gzip_bytes": 15628
+    },
+    "Lautsprecher_3D/innenleben-aktiv.js": {
+      "source_sha256": "14e7d7dd3a0851ccf26f0baa4be446e08abddc74e8d2ab2ce0178bdb84028930",
+      "served_sha256": "14e7d7dd3a0851ccf26f0baa4be446e08abddc74e8d2ab2ce0178bdb84028930",
+      "bytes": 2377657,
+      "gzip_bytes": 803275
     },
     "Lautsprecher_3D/innenleben.js": {
-      "source_sha256": "054dc8918e45d8b87a2615efc751f6da002fbb0d9290787427919132ef31bba4",
-      "served_sha256": "054dc8918e45d8b87a2615efc751f6da002fbb0d9290787427919132ef31bba4",
-      "bytes": 2373528,
-      "gzip_bytes": 799064
+      "source_sha256": "6cfdc1f8098a11ad161c70f88ad51ebe624a790876e3fb27fcec70567e1be206",
+      "served_sha256": "6cfdc1f8098a11ad161c70f88ad51ebe624a790876e3fb27fcec70567e1be206",
+      "bytes": 2377752,
+      "gzip_bytes": 806550
     },
     "Lautsprecher_3D/konstruktion/Front_Sandwich_S1.pdf": {
       "source_sha256": "6ae3496b2934499ed82180e8f559372944351d67b09f42d8527a4a8970b92ede",
       "served_sha256": "6ae3496b2934499ed82180e8f559372944351d67b09f42d8527a4a8970b92ede",
       "bytes": 92120,
-      "gzip_bytes": 78552
+      "gzip_bytes": 78571
     },
     "Lautsprecher_3D/konstruktion/Front_Sandwich_S1.zip": {
       "source_sha256": "ea3eac9b51651bbf840a3ed18a9ae54527fb4e3cb6e0e55c911431d7fce033e5",
       "served_sha256": "ea3eac9b51651bbf840a3ed18a9ae54527fb4e3cb6e0e55c911431d7fce033e5",
       "bytes": 657665,
-      "gzip_bytes": 647176
+      "gzip_bytes": 647234
     },
     "Lautsprecher_3D/konstruktion/Fussaufnahme_F9.pdf": {
       "source_sha256": "8addbc6879051075a888685c71a52bb8b5e9c02390a33f8792b8ff05143591fc",
       "served_sha256": "8addbc6879051075a888685c71a52bb8b5e9c02390a33f8792b8ff05143591fc",
       "bytes": 76679,
-      "gzip_bytes": 73127
+      "gzip_bytes": 73153
     },
     "Lautsprecher_3D/konstruktion/Fussaufnahme_F9.zip": {
       "source_sha256": "6a10ee70875d41cf9d2606ed8f899768af84935cf056717d3d4094db5b75d84c",
       "served_sha256": "6a10ee70875d41cf9d2606ed8f899768af84935cf056717d3d4094db5b75d84c",
       "bytes": 4242908,
-      "gzip_bytes": 4096724
+      "gzip_bytes": 4091944
     },
     "Lautsprecher_3D/konstruktion/Gehaeuselack.html": {
       "source_sha256": "0754fc6fef0b84a7457d5e4007d6c49e0add4d8b47043d57af637a09eea2bcd9",
@@ -366,43 +378,43 @@
       "source_sha256": "1d98d78fdb081761b2c7cf2b9a24f3ae535f2e373ae3a665e27649291c66fe50",
       "served_sha256": "1d98d78fdb081761b2c7cf2b9a24f3ae535f2e373ae3a665e27649291c66fe50",
       "bytes": 207155,
-      "gzip_bytes": 159893
+      "gzip_bytes": 160723
     },
     "Lautsprecher_3D/konstruktion/Pads_Edelstahlstreben_R9.pdf": {
       "source_sha256": "1d80e73bb10f956c93794f2ddb784bf2012b7009ca198c389e6b9cbd06b15c66",
       "served_sha256": "1d80e73bb10f956c93794f2ddb784bf2012b7009ca198c389e6b9cbd06b15c66",
       "bytes": 98345,
-      "gzip_bytes": 87442
+      "gzip_bytes": 87584
     },
     "Lautsprecher_3D/konstruktion/Pads_R9_Anschlusspruefung.pdf": {
       "source_sha256": "a060bb1571cabeaa48f9e10523fd588d03f7b920b6a270c9cbbb230b3adb2eb7",
       "served_sha256": "a060bb1571cabeaa48f9e10523fd588d03f7b920b6a270c9cbbb230b3adb2eb7",
       "bytes": 57882,
-      "gzip_bytes": 42382
+      "gzip_bytes": 42394
     },
     "Lautsprecher_3D/konstruktion/Stand_Pads_Methodik.txt": {
       "source_sha256": "f2ef54974e28a4ac43d4cfea3bbd549c4f90d3f7bc3f7f084bc41ea04ef1b6ac",
       "served_sha256": "f2ef54974e28a4ac43d4cfea3bbd549c4f90d3f7bc3f7f084bc41ea04ef1b6ac",
       "bytes": 7568,
-      "gzip_bytes": 3690
+      "gzip_bytes": 3691
     },
     "Lautsprecher_3D/konstruktion/Stand_Pads_Simulation.json": {
       "source_sha256": "95dde6c7f2d0082aa4d5411db855047937235d8c5f03b5bbe289e2060bc47e7d",
       "served_sha256": "95dde6c7f2d0082aa4d5411db855047937235d8c5f03b5bbe289e2060bc47e7d",
       "bytes": 1076177,
-      "gzip_bytes": 338462
+      "gzip_bytes": 339394
     },
     "Lautsprecher_3D/konstruktion/Stand_Pads_Validierung.pdf": {
       "source_sha256": "cc6bea0ea120d9f3f85630f78f9dd4668e7cc94fd9d4be62cb736178cf3640fc",
       "served_sha256": "cc6bea0ea120d9f3f85630f78f9dd4668e7cc94fd9d4be62cb736178cf3640fc",
       "bytes": 254709,
-      "gzip_bytes": 244547
+      "gzip_bytes": 244571
     },
     "Lautsprecher_3D/konstruktion/Versteifung_R1.zip": {
       "source_sha256": "acaed3b72b2b920ad2063c608e3849d5db30d35ef488248726c6b3172860f156",
       "served_sha256": "acaed3b72b2b920ad2063c608e3849d5db30d35ef488248726c6b3172860f156",
       "bytes": 434087,
-      "gzip_bytes": 425331
+      "gzip_bytes": 425303
     },
     "Lautsprecher_3D/loading.js": {
       "source_sha256": "b59930514896a3f9d17033e68729cf65da34beb7d621a7332ea7e33f2afaa397",
@@ -420,67 +432,79 @@
       "source_sha256": "abf9a957ba56d9100c4c01f5dfc02d36e9a7a0012669aa97a914a90ff714981b",
       "served_sha256": "abf9a957ba56d9100c4c01f5dfc02d36e9a7a0012669aa97a914a90ff714981b",
       "bytes": 5414081,
-      "gzip_bytes": 4060366
+      "gzip_bytes": 4137604
     },
     "Lautsprecher_3D/panini.js": {
       "source_sha256": "c15ae0f4feab31b623367ddd55cc915fead100d2dd8a48e1d3480192bb7f0fe5",
       "served_sha256": "c15ae0f4feab31b623367ddd55cc915fead100d2dd8a48e1d3480192bb7f0fe5",
       "bytes": 7708,
-      "gzip_bytes": 3176
+      "gzip_bytes": 3180
+    },
+    "Lautsprecher_3D/plate-amp-model.js": {
+      "source_sha256": "2b47bcdf5a6b293035ab3a65379e3b03f8428a371737f7c5df8344bbd0fa017a",
+      "served_sha256": "2b47bcdf5a6b293035ab3a65379e3b03f8428a371737f7c5df8344bbd0fa017a",
+      "bytes": 2145485,
+      "gzip_bytes": 1616149
     },
     "Lautsprecher_3D/scale-figure.js": {
       "source_sha256": "2876fb9ec8c2203d3b737bb3fe21cf6334365fb121f5ddccffa965a47f1d1164",
       "served_sha256": "2876fb9ec8c2203d3b737bb3fe21cf6334365fb121f5ddccffa965a47f1d1164",
       "bytes": 1402,
-      "gzip_bytes": 718
+      "gzip_bytes": 719
     },
     "Lautsprecher_3D/simulation-4ohm.html": {
-      "source_sha256": "0c69e176c93926f7c28882b3c35b26f071ea1cf88935d253aa1be48098378c94",
-      "served_sha256": "a9ed10bcfce1b2afc7231a1c2cad1579a37322fefb63c27351df15331ddfaa25",
-      "bytes": 938790,
-      "gzip_bytes": 375025
+      "source_sha256": "d82f2e2044e42d60d12bfd403c5938ffeb13a0c3b5ed1162cc6e5d357f8a146a",
+      "served_sha256": "062725cb655dd27b72adb204c4eef8d80135ea623d7f859bcdfa9682f0fa30f6",
+      "bytes": 940614,
+      "gzip_bytes": 376002
+    },
+    "Lautsprecher_3D/simulation-aktiv.html": {
+      "source_sha256": "ac4030c62cb4c0923e642e83c18d06b59f884e1580bdb84a3dfadfbdcf6bd1c2",
+      "served_sha256": "e4bedfb9d987fd2f962740a347b9b28bbd39bfeec6046bef2786cf7d64d0784f",
+      "bytes": 934471,
+      "gzip_bytes": 374366
     },
     "Lautsprecher_3D/simulation.html": {
-      "source_sha256": "ae1aec5a22e5f848e84d746b4d6196ff3fac1b1bf749cb7259747c216b2e3a98",
-      "served_sha256": "289948e5383868c79ac8000351ec5d751d9b05cd2e3c21e336094532d8f4c43b",
-      "bytes": 938635,
-      "gzip_bytes": 374865
+      "source_sha256": "9f212dd00077f7d04d47dea368ec92c9aaf0ac3838a173412d7741ebe0a5d445",
+      "served_sha256": "69c653374b2b23d5ca9be843485fa5221ec25cca9294a9a34821b8f6fb131223",
+      "bytes": 940589,
+      "gzip_bytes": 375981
     },
     "Lautsprecher_3D/sockel.js": {
       "source_sha256": "2deb59e7af078c155c17c274878fe92ce55905ddc7ae20bd1e15e33e2841695e",
       "served_sha256": "2deb59e7af078c155c17c274878fe92ce55905ddc7ae20bd1e15e33e2841695e",
       "bytes": 12032,
-      "gzip_bytes": 4825
+      "gzip_bytes": 4834
     },
     "Lautsprecher_3D/spikes.js": {
       "source_sha256": "8a3b04faf90d45731140cc426b6662a486ca952f8577aa28cc27377ef6e8e70e",
       "served_sha256": "8a3b04faf90d45731140cc426b6662a486ca952f8577aa28cc27377ef6e8e70e",
       "bytes": 1737,
-      "gzip_bytes": 932
+      "gzip_bytes": 933
     },
     "Lautsprecher_3D/staender-x.js": {
       "source_sha256": "f60fc2e71680527dc3717398c2236f7c42ea7f1e9fbb0eff0458fb256208775a",
       "served_sha256": "f60fc2e71680527dc3717398c2236f7c42ea7f1e9fbb0eff0458fb256208775a",
       "bytes": 51329,
-      "gzip_bytes": 15123
+      "gzip_bytes": 15146
     },
     "Lautsprecher_3D/stand-material.js": {
       "source_sha256": "23f35b0597dd3699f468ae9166f2a7086bb8b24a6529a2e84f9ee339dfa83fff",
       "served_sha256": "23f35b0597dd3699f468ae9166f2a7086bb8b24a6529a2e84f9ee339dfa83fff",
       "bytes": 7735,
-      "gzip_bytes": 2802
+      "gzip_bytes": 2807
     },
     "Lautsprecher_3D/studio.js": {
       "source_sha256": "3811c9adb20c9de6de785d0a853014f5dc7c2909c548ec69beefa50783157f57",
       "served_sha256": "3811c9adb20c9de6de785d0a853014f5dc7c2909c548ec69beefa50783157f57",
       "bytes": 7034,
-      "gzip_bytes": 2709
+      "gzip_bytes": 2712
     },
     "Lautsprecher_3D/surface-materials.js": {
       "source_sha256": "7d0dac1363e6a149439ddcbab6e103ab2f80cab7f69d242f5c675aab41fef645",
       "served_sha256": "7d0dac1363e6a149439ddcbab6e103ab2f80cab7f69d242f5c675aab41fef645",
       "bytes": 17609,
-      "gzip_bytes": 6020
+      "gzip_bytes": 6039
     },
     "Lautsprecher_3D/talis-pro-l-model.js": {
       "source_sha256": "2bd3baaee6837b3aa2d6638a8cb0ced9479a3dde5df4afc979350bfca5b2cb23",
@@ -492,37 +516,37 @@
       "source_sha256": "7c18f8acb54ab7097ca72632e409e659ed0d29cbdf41adb74dd983e41198f6d2",
       "served_sha256": "7c18f8acb54ab7097ca72632e409e659ed0d29cbdf41adb74dd983e41198f6d2",
       "bytes": 3993,
-      "gzip_bytes": 1834
+      "gzip_bytes": 1835
     },
     "Lautsprecher_3D/textures.js": {
       "source_sha256": "ef4c8b9c3f6f5fefd70dcdbcd11d8f0b32be447ac110549e384c010a19e535ec",
       "served_sha256": "ef4c8b9c3f6f5fefd70dcdbcd11d8f0b32be447ac110549e384c010a19e535ec",
       "bytes": 53463912,
-      "gzip_bytes": 40212523
+      "gzip_bytes": 40832341
     },
     "Lautsprecher_3D/umgebung/altbau.js": {
       "source_sha256": "0dc1ed881c0c4f8a0c87c82015b637e918aa47f92cf2b4ecab7f3fa369ce7d27",
       "served_sha256": "0dc1ed881c0c4f8a0c87c82015b637e918aa47f92cf2b4ecab7f3fa369ce7d27",
       "bytes": 5142035,
-      "gzip_bytes": 3818989
+      "gzip_bytes": 3869614
     },
     "Lautsprecher_3D/umgebung/bauernhaus.js": {
       "source_sha256": "e3b250407d67c243f91c85fb3288aeeb34adfed457bd7d6a7107dea81e7851de",
       "served_sha256": "e3b250407d67c243f91c85fb3288aeeb34adfed457bd7d6a7107dea81e7851de",
       "bytes": 5532173,
-      "gzip_bytes": 4115266
+      "gzip_bytes": 4171483
     },
     "Lautsprecher_3D/umgebung/waldsee.js": {
       "source_sha256": "9d0a6a5f04138afa3284da096b1b65006d4c87c4b3c9638b3667e5f34236985a",
       "served_sha256": "9d0a6a5f04138afa3284da096b1b65006d4c87c4b3c9638b3667e5f34236985a",
       "bytes": 5319221,
-      "gzip_bytes": 3930489
+      "gzip_bytes": 3979011
     },
     "Lautsprecher_3D/umgebung.js": {
       "source_sha256": "7a95554aefaa519e94525a396227a383a58c8349338ad7770bd6de17606c55c9",
       "served_sha256": "7a95554aefaa519e94525a396227a383a58c8349338ad7770bd6de17606c55c9",
       "bytes": 32177,
-      "gzip_bytes": 11267
+      "gzip_bytes": 11288
     },
     "Lautsprecher_3D/vendor/THREE-LICENSE.txt": {
       "source_sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
@@ -534,38 +558,38 @@
       "source_sha256": "ec69904e8e815f1d2b28c8f0e5bf0fb774e59367a14da9ad9c3742d7e9483b92",
       "served_sha256": "ec69904e8e815f1d2b28c8f0e5bf0fb774e59367a14da9ad9c3742d7e9483b92",
       "bytes": 665597,
-      "gzip_bytes": 108009
+      "gzip_bytes": 108099
     },
     "Lautsprecher_3D/vendor/three-r160.min.js": {
       "source_sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
       "served_sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa",
       "bytes": 669884,
-      "gzip_bytes": 166574
+      "gzip_bytes": 167081
     },
     "Lautsprecher_3D/viewer.css": {
       "source_sha256": "077accb4c8a877552eee0ebad47a2e402d4840e3d971295d4994cb1d25e36653",
       "served_sha256": "077accb4c8a877552eee0ebad47a2e402d4840e3d971295d4994cb1d25e36653",
       "bytes": 24724,
-      "gzip_bytes": 5898
+      "gzip_bytes": 5915
     },
     "Lautsprecher_3D/viewer.js": {
       "source_sha256": "a61e0fcc734976c23005123363022137b0861ce706465274e913bc9b0d7e48d4",
       "served_sha256": "a61e0fcc734976c23005123363022137b0861ce706465274e913bc9b0d7e48d4",
       "bytes": 56767,
-      "gzip_bytes": 17683
+      "gzip_bytes": 17746
     },
     "Lautsprecher_3D/waveguide-coating.js": {
       "source_sha256": "7ada891ac3d8890fe879d7b7dbad27f1e5192fbd7022eb873b74c3e74888e6e9",
       "served_sha256": "7ada891ac3d8890fe879d7b7dbad27f1e5192fbd7022eb873b74c3e74888e6e9",
       "bytes": 655480,
-      "gzip_bytes": 16091
+      "gzip_bytes": 15890
     },
     "Lautsprecher_3D/waveguide-module.js": {
       "source_sha256": "5d2ecc2f1c92d4e652a8905a2347877f69386272dd3a97080eab42bac996f9f0",
       "served_sha256": "5d2ecc2f1c92d4e652a8905a2347877f69386272dd3a97080eab42bac996f9f0",
       "bytes": 7972,
-      "gzip_bytes": 3218
+      "gzip_bytes": 3226
     }
   },
-  "encrypted_bytes": 326041272
+  "encrypted_bytes": 330603686
 }
